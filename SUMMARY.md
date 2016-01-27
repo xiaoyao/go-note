@@ -11,7 +11,7 @@
    * [数据库](培训/数据库.md)
    * [docker](培训/docker.md)
    * [go 并发](培训/go并发.md)
-   * go memory management
+   * [go memory management](培训/go_memory_management.md)
 * [Go 基础](Go 基础/go.md)
    * [interface](Go 基础/interface.md)
    * [goroutine](Go 基础/goroutine.md)
