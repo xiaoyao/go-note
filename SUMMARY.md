@@ -18,7 +18,7 @@
    * [regexp](Go 基础/regexp.md)
    * [runtime](Go 基础/runtime.md)
    * [make_new](Go 基础/make_new.md)
-   * 类型系统
+   * [类型系统](Go 基础/类型系统.md)
 * [web](web/web.md)
 * [Go Web](Go Web/go_web.md)
    * [基本过程和原理](Go Web/基本过程和原理.md)
