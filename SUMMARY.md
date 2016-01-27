@@ -17,7 +17,7 @@
    * [goroutine](Go 基础/goroutine.md)
    * [regexp](Go 基础/regexp.md)
    * [runtime](Go 基础/runtime.md)
-   * make_new
+   * [make_new](Go 基础/make_new.md)
 * [web](web/web.md)
 * [Go Web](Go Web/go_web.md)
    * [基本过程和原理](Go Web/基本过程和原理.md)
