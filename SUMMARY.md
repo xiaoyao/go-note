@@ -37,5 +37,5 @@
    * [MongoDB](database/mongodb.md)
    * [关系数据库](database/关系数据库.md)
 * [concurrency](concurrency.md)
-   * [divan's blog](divans_blog.md)
+   * [divan's blog](concurrency/divans_blog.md)
 
