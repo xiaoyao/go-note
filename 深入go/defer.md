@@ -67,3 +67,74 @@ call runtime.deferreturn，
 add xx SP
 return
 goroutine的控制结构中，有一张表记录defer，调用runtime.deferproc时会将需要defer的表达式记录在表中，而在调用runtime.deferreturn的时候，则会依次从defer表中出栈并执行。
+
+
+
+***
+## 例子：
+
+```go
+func whoFirst1() int { //0
+	result := 0
+	defer func() {
+		result++
+	}()
+	return result
+}
+
+//-------------------------------------
+
+func whoFirst2() (r int) { //5
+	result := 5
+	defer func() {
+		result += 5
+	}()
+	return result
+}
+
+func whoFirst21() (result int) { //10
+	result = 5
+	defer func() {
+		result += 5
+	}()
+	return result
+}
+
+func whoFirst22() int { //5
+	result := 5
+	defer func() {
+		result += 5
+	}()
+	return result
+}
+
+//-------------------------------------
+
+func whoFirst3() (result int) { //1
+	defer func(result int) {
+		result = result + 5
+	}(result)
+	return 1
+}
+
+func whoFirst31() (result int) { //0
+	defer func(result int) {
+		result = result + 5
+	}(result)
+	return result
+}
+
+func whoFirst32() (result int) { //5
+	defer func() {
+		result = result + 5
+	}()
+	return
+}
+
+func whoFirst33() (result int) { //6
+	defer func() {
+		result = result + 5
+	}()
+	return 1
+}
+```
