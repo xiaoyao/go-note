@@ -36,6 +36,6 @@
    * [nosql](database/nosql.md)
    * [MongoDB](database/mongodb.md)
    * [关系数据库](database/关系数据库.md)
-* [concurrency](concurrency.md)
+* [concurrency](concurrency/concurrency.md)
    * [divan's blog](concurrency/divansblog.md)
 
