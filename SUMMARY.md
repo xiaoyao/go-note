@@ -12,6 +12,7 @@
    * [docker](培训/docker.md)
    * [go 并发](培训/go并发.md)
    * [go memory management](培训/go_memory_management.md)
+   * go profile
 * [Go 基础](Go 基础/go.md)
    * [类型系统](Go 基础/类型系统.md)
    * [make_new](Go 基础/make_new.md)
