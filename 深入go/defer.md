@@ -3,6 +3,38 @@
 
 ## defer 大坑
 
+例1：
+```go
+
+func f() (result int) {
+    defer func() {
+        result++
+    }()
+    return 0
+}
+```
+例2：
+```go
+
+func f() (r int) {
+     t := 5
+     defer func() {
+       t = t + 5
+     }()
+     return t
+}
+```
+
+例3：
+
+```go
+func f() (r int) {
+    defer func(r int) {
+          r = r + 5
+    }(r)
+    return 1
+}
+```
 
 defer是在return之前执行的。这个在 官方文档中是明确说明了的。
 
