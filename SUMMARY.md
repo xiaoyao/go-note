@@ -45,5 +45,5 @@
    * [defer](深入go/defer.md)
    * [连续栈](深入go/连续栈.md)
    * [闭包](深入go/闭包.md)
-   * goroutine 调度
+   * [goroutine 调度](深入go/goroutine 调度.md)
 
