@@ -24,7 +24,7 @@
    * [内存模型](Go 基础/内存模型.md)
 * [web](web/web.md)
 * [Go Web](Go Web/go_web.md)
-   * 基础
+   * [基础](Go Web/基础.md)
    * [基本过程和原理](Go Web/基本过程和原理.md)
    * [http[original]](Go Web/http.md)
    * [http.ServeMux解析](Go Web/http.ServeMux.md)
