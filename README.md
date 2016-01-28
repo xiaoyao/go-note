@@ -4,14 +4,26 @@
 
 [http.ServeMux解析](http://studygolang.com/articles/4890)
 
-[Go 语言圣经](http://golang-china.github.io/gopl-zh/index.html)
 ***
-牛人：
+### books:
+
+1.[Go 语言圣经](http://golang-china.github.io/gopl-zh/index.html)
+
+2.[Go Web 编程](https://wizardforcel.gitbooks.io/build-web-application-with-golang/content/index.html)
+
+3.[《深入解析Go》](https://tiancaiamao.gitbooks.io/go-internals/content/zh/index.html)
+
+
+***
+### 牛人：
 
 1.[divan's blog](https://divan.github.io)
 
+
+
+
 ***
-最佳帮助信息：
+### 最佳帮助信息：
 [Go语言的官方网站](https://golang.org ),
 提供了完善的参考文档，包括编程语言规范和标准库等诸多权威的帮助信息
 
