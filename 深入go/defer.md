@@ -41,9 +41,29 @@ defer是在return之前执行的。这个在 官方文档中是明确说明了�
 要使用defer时不踩坑，最重要的一点就是要明白，return xxx这一条语句并不是一条原子指令!
 
 
-## 函数返回的过程是这样的：
+## 函数返回的过程：
 - 先给返回值赋值，
 - 然后调用defer表达式，
 - 最后才是返回到调用函数中。
 
 **defer表达式可能会在设置函数返回值之后，在返回到调用函数之前，修改返回值，使最终的函数返回值与你想象的不一致。**
+
+defer确实是在return之前调用的。但表现形式上却可能不像。本质原因是return xxx语句并不是一条原子指令，defer被插入到了赋值 与 ret之间，因此可能有机会改变最终的返回值。
+
+
+## defer的实现
+
+defer关键字的实现跟go关键字很类似，不同的是它调用的是runtime.deferproc而不是runtime.newproc。
+
+在defer出现的地方，插入了指令call runtime.deferproc，然后在函数返回之前的地方，插入指令call runtime.deferreturn。
+
+普通的函数返回时，汇编代码类似：
+
+add xx SP
+return
+如果其中包含了defer语句，则汇编代码是：
+
+call runtime.deferreturn，
+add xx SP
+return
+goroutine的控制结构中，有一张表记录defer，调用runtime.deferproc时会将需要defer的表达式记录在表中，而在调用runtime.deferreturn的时候，则会依次从defer表中出栈并执行。
