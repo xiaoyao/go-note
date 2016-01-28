@@ -1,4 +1,7 @@
-# divan's blog
+-  divan's blog
+
+# [Visualizing Concurrency in Go](https://divan.github.io/posts/go_concurrency_visualize/)
+
 
 ## 1.Timers
 In fact, you can build a simple timer with this approach - create a channel, start goroutine which writes to this channel after given duration and returns this channel to the caller of your func. The caller then blocks on reading from the channel for the exact amount of time.
@@ -464,3 +467,28 @@ func main() {
 ![](primesieve.gif)
 
 Feel free to play with this animation in interactive mode. I like how illustrative it is - it really can help understand this algorithm better. The generate goroutine emits every integer number, starting from 2, and each new goroutine filters out only specific prime multiples - 2, 3, 5, 7…, sending first found prime to main. If you rotate it to see from the top, you’ll see all numbers being sent from goroutines to main are prime numbers. Beautiful algorithm, especially in 3D.
+
+
+
+## Parallelism is not Concurrency
+
+to be short,
+
+> 
+Parallelism is simply running things in parallel.
+>
+Concurrency is a way to structure your program.
+
+Thus, the concurrent program may or may not be parallel, these concepts are somehow orthogonal. 
+
+So, this is parallelism. Many things running in parallel.
+![](parallelism1.gif)
+
+And this is also parallelism:
+![](parallelism2.gif)
+
+** But this is concurrency: **
+
+![](primesieve-3.gif)
+![](pingpong100-2.gif)
+![](workers2-2.gif)
