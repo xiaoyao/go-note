@@ -47,4 +47,5 @@
    * [闭包](深入go/闭包.md)
    * [goroutine 调度](深入go/goroutine 调度.md)
    * [内存管理](深入go/内存管理.md)
+   * 垃圾回收
 
