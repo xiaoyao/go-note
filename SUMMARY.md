@@ -21,7 +21,6 @@
    * [regexp](Go 基础/regexp.md)
    * [runtime](Go 基础/runtime.md)
    * [os包](Go 基础/os包.md)
-   * [内存模型](Go 基础/内存模型.md)
 * [web](web/web.md)
 * [Go Web](Go Web/go_web.md)
    * [web基础](Go Web/基础.md)
