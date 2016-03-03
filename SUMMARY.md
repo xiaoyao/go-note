@@ -16,7 +16,6 @@
 * [GoSpecification](GoSpecification/go.md)
    * [Types](GoSpecification/types.md)
    * [Make&new](GoSpecification/make&new.md)
-   * [make_new](Go 基础/make_new.md)
    * [interface](Go 基础/interface.md)
    * [goroutine](Go 基础/goroutine.md)
    * [regexp](Go 基础/regexp.md)
