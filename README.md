@@ -1,7 +1,8 @@
 # go note
 
 
-### books:
+## 参考资料：
+### Books:
 
 1.[Go 语言圣经](http://golang-china.github.io/gopl-zh/index.html)
 
@@ -27,3 +28,4 @@
 
  http://talks.golang.org/ 包含了官方收录的各种报告的讲稿
 
+[The Go Programming Language Specification](http://docs.studygolang.com/ref/spec)
