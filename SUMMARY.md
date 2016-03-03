@@ -23,7 +23,7 @@
    * [Package-os](GoSpecification/package-os.md)
 * [web](web/web.md)
 * [GoWeb](GoWeb/goweb_md.md)
-   * [web基础](GoWeb/foundation.md)
+   * [web基础](GoWeb/foundationmd.md)
    * [经典程序](Go Web/经典程序.md)
    * [基本过程和原理](Go Web/基本过程和原理.md)
    * [http[original]](Go Web/http.md)
