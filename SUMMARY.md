@@ -13,7 +13,7 @@
    * [go 并发](培训/go并发.md)
    * [go memory management](培训/go_memory_management.md)
    * [go profile](培训/go_profile.md)
-* [Go基础](Go基础/go.md)
+* [Go基础](Go基础/gomd.md)
    * [类型系统](Go 基础/类型系统.md)
    * [make_new](Go 基础/make_new.md)
    * [interface](Go 基础/interface.md)
