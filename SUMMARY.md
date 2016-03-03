@@ -31,7 +31,7 @@
    * [session](GoWeb/session.md)
 * [RESTful](restful/restful.md)
    * [RESTful Web Services初探](restful/restful_web_services_初探.md)
-* [data_base](database/database.md)
+* [DataBase](database/database.md)
    * [database/sql接口](database/sql_interface.md)
    * [nosql](database/nosql.md)
    * [MongoDB](database/mongodb.md)
