@@ -43,7 +43,7 @@
    * [defer](深入go/defer.md)
    * [连续栈](深入go/连续栈.md)
    * [闭包](深入go/闭包.md)
-   * [goroutine调度](深入go/goroutine 调度.md)
+   * [goroutine调度](深入go/goroutine调度.md)
    * [内存管理](深入go/内存管理.md)
    * [垃圾回收](深入go/垃圾回收.md)
    * [高级数据结构](深入go/高级数据结构.md)
