@@ -21,7 +21,6 @@
    * [Regexp](GoSpecification/regexp.md)
    * [Runtime](GoSpecification/runtime.md)
    * [Package-os](GoSpecification/package-os.md)
-   * [regexp](Go 基础/regexp.md)
    * [runtime](Go 基础/runtime.md)
    * [os包](Go 基础/os包.md)
 * [web](web/web.md)
