@@ -27,7 +27,6 @@
    * [ClasicalProgram](GoWeb/clasicalprogram.md)
    * [Http(original)](GoWeb/http_original.md)
    * [http.ServeMux](GoWeb/http.servemux.md)
-   * [http.ServeMux解析](Go Web/http.ServeMux.md)
    * [http.HandlerFunc](Go Web/http_handlerfunc.md)
    * [session](Go Web/session.md)
 * [RESTful](restful/restful.md)
