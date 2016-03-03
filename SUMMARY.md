@@ -7,7 +7,7 @@
    * [http_测试](培训/http_测试.md)
    * [Web 安全](培训/web_安全.md)
    * [爬虫](培训/爬虫.md)
-   * [Web 会话管理](培训/Web会话管理.md)
+   * [Web会话管理](培训/Web会话管理.md)
    * [数据库](培训/数据库.md)
    * [docker](培训/docker.md)
    * [go 并发](培训/go并发.md)
