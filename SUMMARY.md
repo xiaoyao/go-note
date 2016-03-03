@@ -25,7 +25,6 @@
 * [GoWeb](GoWeb/goweb_md.md)
    * [WebFoundation](GoWeb/foundationmd.md)
    * [ClasicalProgram](GoWeb/clasicalprogram.md)
-   * [基本过程和原理](Go Web/基本过程和原理.md)
    * [http[original]](Go Web/http.md)
    * [http.ServeMux解析](Go Web/http.ServeMux.md)
    * [http.HandlerFunc](Go Web/http_handlerfunc.md)
