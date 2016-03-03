@@ -14,7 +14,7 @@
    * [go memory management](培训/go_memory_management.md)
    * [go profile](培训/go_profile.md)
 * [GoSpecification](GoSpecification/go.md)
-   * [类型系统](Go基础/TypeSystem.md)
+   * [Types](Go基础/TypeSystem.md)
    * [make_new](Go 基础/make_new.md)
    * [interface](Go 基础/interface.md)
    * [goroutine](Go 基础/goroutine.md)
