@@ -26,7 +26,7 @@
    * [WebFoundation](GoWeb/foundationmd.md)
    * [ClasicalProgram](GoWeb/clasicalprogram.md)
    * [Http(original)](GoWeb/http_original.md)
-       * http.HandlerFunc
+       * [http.HandlerFunc](GoWeb/http.handlerfunc.md)
    * [http.ServeMux](GoWeb/http.servemux.md)
    * [http.HandlerFunc](Go Web/http_handlerfunc.md)
    * [session](Go Web/session.md)
