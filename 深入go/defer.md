@@ -15,6 +15,8 @@ func f() (result int) {
     return 0
 }
 ```
+>result:1
+
 例2：
 ```go
 
