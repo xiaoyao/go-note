@@ -40,7 +40,7 @@ func f() (r int) {
     return 1
 }
 ```
->result: 6
+>result: 1
 
 defer是在return之前执行的。这个在 官方文档中是明确说明了的。
 
