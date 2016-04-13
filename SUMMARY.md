@@ -23,7 +23,7 @@
    * [Package-os](GoSpecification/package-os.md)
 * [web](web/web.md)
 * [GoWeb](GoWeb/goweb_md.md)
-   * [《go web 编程》](GoWeb/go_web_programing.md)
+   * [GOWEB_NOTE](GoWeb/go_web_programing.md)
        * REST
    * [WebFoundation](GoWeb/foundationmd.md)
    * [ClasicalProgram](GoWeb/clasicalprogram.md)
