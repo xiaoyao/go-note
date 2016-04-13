@@ -24,7 +24,7 @@
 * [web](web/web.md)
 * [GoWeb](GoWeb/goweb_md.md)
    * [GOWEB_NOTE](GoWeb/go_web_programing.md)
-       * REST
+       * [REST](GoWeb/rest.md)
    * [WebFoundation](GoWeb/foundationmd.md)
    * [ClasicalProgram](GoWeb/clasicalprogram.md)
    * [Http(original)](GoWeb/http_original.md)
