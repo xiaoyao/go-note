@@ -30,6 +30,7 @@
        * [http.HandlerFunc](GoWeb/http.handlerfunc.md)
    * [session](GoWeb/session.md)
    * 《go web 编程》
+       * REST
 * [RESTful](restful/restful.md)
    * [RESTful Web Services初探](restful/restful_web_services_初探.md)
 * [data_base](database/database.md)
