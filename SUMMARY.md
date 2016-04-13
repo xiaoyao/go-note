@@ -23,14 +23,14 @@
    * [Package-os](GoSpecification/package-os.md)
 * [web](web/web.md)
 * [GoWeb](GoWeb/goweb_md.md)
+   * 《go web 编程》
+       * REST
    * [WebFoundation](GoWeb/foundationmd.md)
    * [ClasicalProgram](GoWeb/clasicalprogram.md)
    * [Http(original)](GoWeb/http_original.md)
        * [http.ServeMux](GoWeb/http.servemux.md)
        * [http.HandlerFunc](GoWeb/http.handlerfunc.md)
    * [session](GoWeb/session.md)
-   * 《go web 编程》
-       * REST
 * [RESTful](restful/restful.md)
    * [RESTful Web Services初探](restful/restful_web_services_初探.md)
 * [data_base](database/database.md)
